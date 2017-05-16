@@ -8,6 +8,8 @@ Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse 
 Apache Spark on z/OS is in-place, optimized abstraction and real-time analysis of structured and unstructured enterprise data which is powered by z Systems Community Cloud.
 
 ## Part A: Self-service Dashboard
+![GUI](img/Spark.png)  
+
 1.Register at http://www-03.ibm.com/systems/z/resources/trials.html for a trial account.   
 &nbsp;&nbsp;Choose Apache Spark on z/OS trial   
 
