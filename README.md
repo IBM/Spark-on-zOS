@@ -15,13 +15,13 @@ Apache Spark on z/OS is in-place, optimized abstraction and real-time analysis o
 You will receive an email containing credentials to access the self-service portal.  This is where you can start exploring all the available services.   
 
 2.Open a web browser and enter the URL to access the z Systems Community Cloud self-service portal.   
-![GUI](img/Login.png)
+![LOGIN](img/Login.png)
 
 3.Enter your Portal User ID and Portal Password, and click ‘Sign In’.  
 
 4.You will see the home page for the z Systems Community Cloud self-service portal.  
 &nbsp;&nbsp;**Click on ‘Try Analytics Service’**      
-![GUI](img/Trial.png)
+![TRIAL](img/Trial.png)
 
 5.At the top of the screen, notice the ‘z/OS Status’ indicator, which should show the status of your instance as ‘OK’. In the middle of the screen, the ‘Spark Instance’, ‘Status’, ‘Data management’, and ‘Operations’ sections will be displayed. The ‘Spark Instance’ section contains your individual Spark username and IP address.   
 Below the field headings, you will see buttons for functions that can be applied to your instance.   
@@ -33,40 +33,40 @@ Below the field headings, you will see buttons for functions that can be applied
 8.Go to https://github.com/cloud4z/spark and download all the sample files.   
 
 9.Load the DB2 data file :   
-&nbsp;&nbsp;Click ‘Upload Data’    
-&nbsp;&nbsp;Select and load the DB2 DDL file   
-&nbsp;&nbsp;Select and load the DB2 data file   
-&nbsp;&nbsp;Click ‘Upload’   
+&nbsp;&nbsp;**Click ‘Upload Data’**      
+&nbsp;&nbsp;**Select and load the DB2 DDL file **      
+&nbsp;&nbsp;**Select and load the DB2 data file **    
+&nbsp;&nbsp;**Click ‘Upload’**      
 This will create the appropriate DB2 table for analysis.   
 
 10.Submit a prepared Scala program to analyze the data.    
-&nbsp;&nbsp;Click ‘Spark Submit’    
-&nbsp;&nbsp;Select your Spark Demo JAR file   
-&nbsp;&nbsp;Specify Main class name ‘com.ibm.scalademo.ClientJoinVSAM’   
-&nbsp;&nbsp;Enter the arguments: Username Password   
-&nbsp;&nbsp;Click ‘Submit’ 
+&nbsp;&nbsp;**Click ‘Spark Submit’**       
+&nbsp;&nbsp;**Select your Spark Demo JAR file**     
+&nbsp;&nbsp;**Specify Main class name ‘com.ibm.scalademo.ClientJoinVSAM’**     
+&nbsp;&nbsp;**Enter the arguments: Username Password**      
+&nbsp;&nbsp;**Click ‘Submit’ **   
 Note: The arguments suggests you need to login to the GUI to view the job results.    
 
 11.Launch your individual Spark worker output GUI to view the job you just submitted.   
-&nbsp;&nbsp;Click ‘Spark UI’     
-&nbsp;&nbsp;Click on the ‘Worker ID’ for your program in the ‘Completed Drivers’ section.   
-&nbsp;&nbsp;Log in with your Spark username and Spark password. The ones mentioned in step 6.  
-&nbsp;&nbsp;Click on ‘stdout’ for your program in the ‘Finished Drivers’ section to view your results.  
+&nbsp;&nbsp;**Click ‘Spark UI’**       
+&nbsp;&nbsp;**Click on the ‘Worker ID’ for your program in the ‘Completed Drivers’ section.**     
+&nbsp;&nbsp;**Log in with your Spark username and Spark password. The ones mentioned in step 6.**    
+&nbsp;&nbsp;**Click on ‘stdout’ for your program in the ‘Finished Drivers’ section to view your results.**     
   
 ## Part B: Working with Jupyter Notebook
 Jupyter Notebook tool that is installed in the dashboard. This tool will allow you to write and submit Scala code to your Spark instance, and view the output within a web GUI.  
 1.Launch the Jupyter Notebook service in your browser from your dashboard.   
-&nbsp;&nbsp;Click on ‘Jupyter’.   
-&nbsp;&nbsp;You will see the Jupyter home page.         
+&nbsp;&nbsp;**Click on ‘Jupyter’. **    
+&nbsp;&nbsp;You will see the Jupyter home page.          
 
 2.The prepared Scala program in this level will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2. It will also perform a logistic regression analysis and plot the output.   
-&nbsp;&nbsp;Select the Demo.jpynb file.   
+&nbsp;&nbsp;**Select the Demo.jpynb file.**      
 &nbsp;&nbsp;The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
 
 3.The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.  
 &nbsp;&nbsp;Before running the code, make the fllowing changes:
-&nbsp;&nbsp;Change the value of zOS_IP to your Spark IP address.  
-&nbsp;&nbsp;Change the value of zOS_USERNAME to your Spark username and the value of zOS_PASSWORD to your Spark password.    
+&nbsp;&nbsp;**Change the value of zOS_IP to your Spark IP address.**    
+&nbsp;&nbsp;**Change the value of zOS_USERNAME to your Spark username and the value of zOS_PASSWORD to your Spark password.**      
 
 4.Click each ‘In [#]:’ section, then click the run button in the GUI. Check out the results.
 
