@@ -7,8 +7,7 @@ Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse 
 
 Apache Spark on z/OS is in-place, optimized abstraction and real-time analysis of structured and unstructured enterprise data which is powered by z Systems Community Cloud.
 
-## Part A: Self-service Dashboard
-![GUI](img/Spark.png)  
+## Part A: Self-service Dashboard 
 
 1.Register at http://www-03.ibm.com/systems/z/resources/trials.html for a trial account.   
 * **Choose Apache Spark on z/OS trial**      
@@ -23,8 +22,18 @@ You will receive an email containing credentials to access the self-service port
 * **Click on ‘Try Analytics Service’**      
 ![TRIAL](img/Trial.png)
 
-5.At the top of the screen, notice the ‘z/OS Status’ indicator, which should show the status of your instance as ‘OK’. In the middle of the screen, the ‘Spark Instance’, ‘Status’, ‘Data management’, and ‘Operations’ sections will be displayed. The ‘Spark Instance’ section contains your individual Spark username and IP address.   
-Below the field headings, you will see buttons for functions that can be applied to your instance.   
+5.You will now see a dashboard, which shows the status of your Apache Spark on z/OS instance. 
+
+At the top of the screen, notice the ‘z/OS Status’ indicator, which should show the status of your instance 
+as ‘OK’. 
+
+In the middle of the screen, the ‘Spark Instance’, ‘Status’, ‘Data management’, and ‘Operations’ sections 
+will be displayed. The ‘Spark Instance’ section contains your individual Spark username and IP address. 
+
+Below the field headings, you will see buttons for functions that can be applied to your instance.    
+![GUI](img/Screen.png) 
+The following table lists the operation for each function:   
+![Table](img/Table.png)
 
 6.If it is the first time for you to try the Analytics Service on zOS. Please reset the spark instance password (click the red "change password" button in the "Spark Instance" column).    
 
