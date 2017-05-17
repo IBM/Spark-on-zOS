@@ -63,6 +63,7 @@ The following table lists the operation for each function:
 * **Enter the arguments: Username Password**   
 * **Click ‘Submit’**   
 Note: The arguments suggest you need to login to the GUI to view the job results.  
+
 ![Submit](img/Submit.png)
 “JOB Submitted” will appear in the dashboard when the program is complete. This Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
 
