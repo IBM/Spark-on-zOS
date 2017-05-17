@@ -11,14 +11,17 @@ Apache Spark on z/OS is in-place, optimized abstraction and real-time analysis o
 ![GUI](img/Spark.png)  
 
 1.Register at http://www-03.ibm.com/systems/z/resources/trials.html for a trial account.   
-&nbsp;&nbsp;Choose Apache Spark on z/OS trial   
+&nbsp;&nbsp;**Choose Apache Spark on z/OS trial**      
+You will receive an email containing credentials to access the self-service portal.  This is where you can start exploring all the available services.   
 
 2.Open a web browser and enter the URL to access the z Systems Community Cloud self-service portal.   
+![GUI](img/Login.png)
 
 3.Enter your Portal User ID and Portal Password, and click ‘Sign In’.  
 
 4.You will see the home page for the z Systems Community Cloud self-service portal.  
-&nbsp;&nbsp;Click on ‘Try Analytics Service’   
+&nbsp;&nbsp;**Click on ‘Try Analytics Service’**      
+![GUI](img/Trial.png)
 
 5.At the top of the screen, notice the ‘z/OS Status’ indicator, which should show the status of your instance as ‘OK’. In the middle of the screen, the ‘Spark Instance’, ‘Status’, ‘Data management’, and ‘Operations’ sections will be displayed. The ‘Spark Instance’ section contains your individual Spark username and IP address.   
 Below the field headings, you will see buttons for functions that can be applied to your instance.   
