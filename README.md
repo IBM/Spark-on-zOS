@@ -19,7 +19,8 @@ You will receive an email containing credentials to access the self-service port
 3.Enter your Portal User ID and Portal Password, and click ‘Sign In’.  
 
 4.You will see the home page for the z Systems Community Cloud self-service portal.  
-* **Click on ‘Try Analytics Service’**      
+* **Click on ‘Try Analytics Service’**   
+
 ![Trial](img/Trial.png)
 
 5.You will now see a dashboard, which shows the status of your Apache Spark on z/OS instance. 
@@ -36,7 +37,8 @@ The following table lists the operation for each function:
 ![Table](img/Table.png)
 
 6.If it is the first time for you to try the Analytics Service on zOS, you must set a new Spark password.
-* **Click ‘Change Password’**   
+* **Click ‘Change Password’** 
+
 ![Change Password](img/Pwd.png)
 
 7.Confirm your instance is Active. If it is ‘Stopped’, click ‘Start’ to start it.   
@@ -49,6 +51,7 @@ The following table lists the operation for each function:
 * **Select and load the DB2 DDL file**   
 * **Select and load the DB2 data file**   
 * **Click ‘Upload’**   
+
 ![Upload](img/Upload.png)
 
 “Upload Success” will appear in the dashboard when the data load is complete. The VSAM data for this exercise has already been loaded for you. However, this step may be repeated by loading the VSAM copybook and VSAM data file you downloaded, from your local system.   
@@ -68,6 +71,7 @@ Note: The arguments suggest you need to login to the GUI to view the job results
 * **Click on the ‘Worker ID’ for your program in the ‘Completed Drivers’ section.**     
 * **Log in with your Spark username and Spark password. The ones mentioned in step 6.**    
 * **Click on ‘stdout’ for your program in the ‘Finished Drivers’ section to view your results.**     
+
 ![Authentication](img/Auth.png) 
 
 
@@ -80,17 +84,20 @@ You will see the Jupyter home page.
 
 2.The prepared Scala program in this level will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2. It will also perform a logistic regression analysis and plot the output.   
 * **Select the Demo.jpynb file.**   
+
 ![Jupyter File Select](img/Select.png)
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
 
 3.The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.  
 &nbsp;&nbsp;Before running the code, make the fllowing changes:
 * **Change the value of zOS_IP to your Spark IP address.**      
-* **Change the value of zOS_USERNAME to your Spark username and the value of zOS_PASSWORD to your Spark password.**      
+* **Change the value of zOS_USERNAME to your Spark username and the value of zOS_PASSWORD to your Spark password.**     
+
 ![Change code](img/ChangeCode.png)
 
 4.Click each ‘In [#]:’ section, the left border will change to blue when a cell is in command mode.
 * **Click the run cell button indicated by the red box as shown below**
+
 ![Run code](img/Run.png)
 The Jupyter Notebook connection to your Spark instance is in the busy state when the Apache Toree –Scala indicator in the top right hand corner of the screen is grey.   
 
