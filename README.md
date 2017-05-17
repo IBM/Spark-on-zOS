@@ -89,7 +89,10 @@ The Jupyter Notebook will connect to your Spark on z/OS instance automatically a
 * **Change the value of zOS_USERNAME to your Spark username and the value of zOS_PASSWORD to your Spark password.**      
 ![Change code](img/ChangeCode.png)
 
-4.Click each ‘In [#]:’ section, then click the run button in the GUI. Check out the results.
+4.Click each ‘In [#]:’ section, the left border will change to blue when a cell is in command mode.
+* **Click the run cell button indicated by the red box as shown below**
+![Run code](img/Run.png)
+
 
 ## Reference
 IBM DB2 for z/OS - https://www.ibm.com/analytics/us/en/technology/db2/db2-for-zos.html   
