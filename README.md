@@ -92,7 +92,10 @@ The Jupyter Notebook will connect to your Spark on z/OS instance automatically a
 4.Click each ‘In [#]:’ section, the left border will change to blue when a cell is in command mode.
 * **Click the run cell button indicated by the red box as shown below**
 ![Run code](img/Run.png)
+The Jupyter Notebook connection to your Spark instance is in the busy state when the Apache Toree –Scala indicator in the top right hand corner of the screen is grey.   
 
+When this indicator turns clear, the cell run has completed and returned to the ready state.   
+You may now move to the next ‘In [#]:’ section and run the code.
 
 ## Reference
 IBM DB2 for z/OS - https://www.ibm.com/analytics/us/en/technology/db2/db2-for-zos.html   
