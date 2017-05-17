@@ -40,6 +40,7 @@ The following table lists the operation for each function:
 ![Change Password](img/Pwd.png)
 
 7.Confirm your instance is Active. If it is ‘Stopped’, click ‘Start’ to start it.   
+![Start](img/Start.png)
 
 8.Go to https://github.com/cloud4z/spark and download all the sample files.   
 
@@ -48,7 +49,9 @@ The following table lists the operation for each function:
 * **Select and load the DB2 DDL file**   
 * **Select and load the DB2 data file**   
 * **Click ‘Upload’**   
-This will create the appropriate DB2 table for analysis.   
+![Upload](img/Upload.png)
+
+“Upload Success” will appear in the dashboard when the data load is complete. The VSAM data for this exercise has already been loaded for you. However, this step may be repeated by loading the VSAM copybook and VSAM data file you downloaded, from your local system.   
 
 10.Submit a prepared Scala program to analyze the data.    
 * **Click ‘Spark Submit’**   
@@ -56,14 +59,18 @@ This will create the appropriate DB2 table for analysis.
 * **Specify Main class name ‘com.ibm.scalademo.ClientJoinVSAM’**     
 * **Enter the arguments: Username Password**   
 * **Click ‘Submit’**   
-Note: The arguments suggests you need to login to the GUI to view the job results.    
+Note: The arguments suggest you need to login to the GUI to view the job results.  
+![Submit](img/Submit.png)
+“JOB Submitted” will appear in the dashboard when the program is complete. This Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
 
 11.Launch your individual Spark worker output GUI to view the job you just submitted.   
 * **Click ‘Spark UI’**       
 * **Click on the ‘Worker ID’ for your program in the ‘Completed Drivers’ section.**     
 * **Log in with your Spark username and Spark password. The ones mentioned in step 6.**    
 * **Click on ‘stdout’ for your program in the ‘Finished Drivers’ section to view your results.**     
-  
+![Authentication](img/Auth.png) 
+
+
 ## Part B: Working with Jupyter Notebook
 Jupyter Notebook tool that is installed in the dashboard. This tool will allow you to write and submit Scala code to your Spark instance, and view the output within a web GUI.  
 1.Launch the Jupyter Notebook service in your browser from your dashboard.   
