@@ -36,15 +36,18 @@ will be displayed. The ‘Spark Instance’ section contains your individual Spa
 Below the field headings, you will see buttons for functions that can be applied to your instance.    
 ![GUI](img/Screen.png) 
 The following table lists the operation for each function:   
-![Table](img/Table.png)
+<img src="img/Table.png" align="left" height="70%" width="70%" >
+<br clear="all" />
 
 6.If it is the first time for you to try the Analytics Service on zOS, you must set a new Spark password.
 * **Click ‘Change Password’** 
 
-![Change Password](img/Pwd.png)
+<img src="img/Pwd.png" align="left" height="30%" width="30%" >
+<br clear="all" />
 
 7.Confirm your instance is Active. If it is ‘Stopped’, click ‘Start’ to start it.   
-![Start](img/Start.png)
+<img src="img/Start.png" align="left" height="30%" width="30%" >
+<br clear="all" />
 
 8.Go to https://github.com/cloud4z/spark and download all the sample files.   
 
@@ -54,7 +57,8 @@ The following table lists the operation for each function:
 * **Select and load the DB2 data file**   
 * **Click ‘Upload’**   
 
-![Upload](img/Upload.png)
+<img src="img/Upload.png" align="left" height="30%" width="30%" >
+<br clear="all" />
 
 “Upload Success” will appear in the dashboard when the data load is complete. The VSAM data for this exercise has already been loaded for you. However, this step may be repeated by loading the VSAM copybook and VSAM data file you downloaded, from your local system.   
 
@@ -66,7 +70,8 @@ The following table lists the operation for each function:
 * **Click ‘Submit’**   
 Note: The arguments suggest you need to login to the GUI to view the job results.  
 
-![Submit](img/Submit.png)
+<img src="img/Submit.png" align="left" height="40%" width="40%" >
+<br clear="all" />
 “JOB Submitted” will appear in the dashboard when the program is complete. This Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
 
 11.Launch your individual Spark worker output GUI to view the job you just submitted.   
@@ -75,7 +80,8 @@ Note: The arguments suggest you need to login to the GUI to view the job results
 * **Log in with your Spark username and Spark password. The ones mentioned in step 6.**    
 * **Click on ‘stdout’ for your program in the ‘Finished Drivers’ section to view your results.**     
 
-![Authentication](img/Auth.png) 
+!<img src="img/Auth.png" align="left" height="40%" width="40%" >
+<br clear="all" />
 
 
 ## Part B: Working with Jupyter Notebook
