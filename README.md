@@ -14,14 +14,16 @@ Apache Spark on z/OS is in-place, optimized abstraction and real-time analysis o
 You will receive an email containing credentials to access the self-service portal.  This is where you can start exploring all the available services.   
 
 2.Open a web browser and enter the URL to access the z Systems Community Cloud self-service portal.   
-![Login](img/Login.png)
+<img src="img/Login.png" align="left" height="30%" width="30%" >
+<br clear="all" />
 
 3.Enter your Portal User ID and Portal Password, and click ‘Sign In’.  
 
 4.You will see the home page for the z Systems Community Cloud self-service portal.  
 * **Click on ‘Try Analytics Service’**   
 
-![Trial](img/Trial.png)
+<img src="img/Trial.png" align="left" height="30%" width="30%" >
+<br clear="all" />
 
 5.You will now see a dashboard, which shows the status of your Apache Spark on z/OS instance. 
 
