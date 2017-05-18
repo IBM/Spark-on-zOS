@@ -36,7 +36,7 @@ will be displayed. The ‘Spark Instance’ section contains your individual Spa
 Below the field headings, you will see buttons for functions that can be applied to your instance.    
 ![GUI](img/Screen.png) 
 The following table lists the operation for each function:   
-<img src="img/Table.png" align="left" height="70%" width="70%" >
+<img src="img/Table.png" align="left" width="60%"  maxwidth="100%" >
 <br clear="all" />
 
 6.If it is the first time for you to try the Analytics Service on zOS, you must set a new Spark password.
@@ -44,6 +44,7 @@ The following table lists the operation for each function:
 
 <img src="img/Pwd.png" align="left" height="30%" width="30%" >
 <br clear="all" />
+<br/>
 
 7.Confirm your instance is Active. If it is ‘Stopped’, click ‘Start’ to start it.   
 <img src="img/Start.png" align="left" height="30%" width="30%" >
