@@ -4,9 +4,9 @@
 
 You can run Spark using its standalone cluster mode, on an IaaS, on Hadoop YARN, or on container orchestrators like Apache Mesos. 
 
-z/OS is an extremely scalable and secure high-performance operating system based on the 64-bit z/Architecture. z/OS is highly reliable for running mission-critical applications, and the operating system supports Web- and Java-based applications.
+[z/OS](https://en.wikipedia.org/wiki/Z/OS) is an extremely scalable and secure high-performance operating system based on the 64-bit z/Architecture. z/OS is highly reliable for running mission-critical applications, and the operating system supports Web- and Java-based applications.
 
-In this jurney we demonstrate running an analytics application using Spark on z/OS. Apache Spark on z/OS is in-place, optimized abstraction and real-time analysis of structured and unstructured enterprise data which is powered by z Systems Community Cloud.
+In this jurney we demonstrate running an analytics application using Spark on z/OS. [Apache Spark on z/OS](https://www-03.ibm.com/systems/z/os/zos/apache-spark.html) is in-place, optimized abstraction and real-time analysis of structured and unstructured enterprise data which is powered by z Systems Community Cloud.
 
 This analytics example uses data stored in DB2 and VSAM tables, and a machine learning application written in Scala.  
 
