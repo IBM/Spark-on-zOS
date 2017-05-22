@@ -8,7 +8,7 @@ In this jurney we demonstrate running an analytics application using Spark on z/
 
 z/OS Platform for Apache Spark includes a supported version of Apache Spark open source capabilities consisting of the ApacheSpark core, Spark SQL, Spark Streaming, Machine Learning Library (MLib) and Graphx.It also includes optimized data access to a broad set of structured and unstructured data sources through Spark APIs. With this capability, traditional z/OS data sources, such as IMS™, VSAM, IBM DB2®, z/OS, PDSE, or SMF data, can be accessed in a performance-optimized manner with Spark
 
-This analytics example uses data stored in DB2 and VSAM tables, and a machine learning application written in Scala.  
+This analytics example uses data stored in DB2 and VSAM tables, and a machine learning application written in [Scala](). The code also uses open-source [Jupyter Notebook](http://jupyter.org) to write and submit Scala code to your Spark instance, and view the output within a web GUI. The Jupyter Notebook is commonly used in data analytics space for data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more. 
 
 The following diagram shows the components relationship:
 <img src="img/senario.png" align="left"  width="80%" >
