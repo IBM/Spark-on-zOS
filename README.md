@@ -1,11 +1,10 @@
 # Spark-on-zOS
-In this jurney we demonstrate running an analytics application using Spark on z/OS. This analytics example uses data stored in DB2 and VSAM tables, and a machine learning application written in Scala. 
 
-z/OS is a 64-bit operating system for IBM mainframes, produced by IBM.
-Apache Spark is an open-source cluster-computing framework.
-Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including HDFS, Cassandra, HBase, and S3. You can run Spark using its standalone cluster mode, on EC2, on Hadoop YARN, or on Apache Mesos.
+Apache Spark is an open-source cluster-computing framework. Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including HDFS, Cassandra, HBase, and S3. Spark offers over 80 high-level operators that make it easy to build parallel apps. And you can use it interactively from the Scala, Python and R shells. You can run Spark using its standalone cluster mode, on an IaaS, on Hadoop YARN, or on container orchestrators like Apache Mesos.
 
-Apache Spark on z/OS is in-place, optimized abstraction and real-time analysis of structured and unstructured enterprise data which is powered by z Systems Community Cloud.
+z/OS is an extremely scalable and secure high-performance operating system based on the 64-bit z/Architecture. z/OS claim ishighly reliable for running mission-critical applications, and the operating system supports Web- and Java-based applications.
+
+In this jurney we demonstrate running an analytics application using Spark on z/OS. This analytics example uses data stored in DB2 and VSAM tables, and a machine learning application written in Scala.  Apache Spark on z/OS is in-place, optimized abstraction and real-time analysis of structured and unstructured enterprise data which is powered by z Systems Community Cloud.
 
 The following diagram shows the components relationship:
 <img src="img/senario.png" align="left"  width="80%" >
