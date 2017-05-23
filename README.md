@@ -53,8 +53,6 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 <img src="images/Login.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 <br></br>
-
-
 2.Enter your Portal User ID and Portal Password, and click ‘Sign In’.  
 
 3.You will see the home page for the z Systems Community Cloud self-service portal.  
@@ -63,7 +61,6 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 <img src="images/Trial.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 <br></br>
-
 4.You will now see a dashboard, which shows the status of your Apache Spark on z/OS instance. 
 
 At the top of the screen, notice the ‘z/OS Status’ indicator, which should show the status of your instance 
