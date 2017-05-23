@@ -104,7 +104,7 @@ Submit a prepared Scala program to analyze the data.
 * **Click ‘Spark Submit’**   
 * **Select your Spark Demo JAR file**       
 * **Specify Main class name ‘com.ibm.scalademo.ClientJoinVSAM’**     
-* **Enter the arguments: Username Password**   
+* **Enter the arguments:  ‘Spark Instance Username’ ‘Spark Instance Password’**   
 * **Click ‘Submit’**   
 Note: The arguments suggest you need to login to the GUI to view the job results.  
 
