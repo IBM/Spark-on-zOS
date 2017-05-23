@@ -11,7 +11,7 @@ z/OS Platform for Apache Spark includes a supported version of Apache Spark open
 This analytics example uses data stored in DB2 and VSAM tables, and a machine learning application written in [Scala](). The code also uses open-source [Jupyter Notebook](http://jupyter.org) to write and submit Scala code to your Spark instance, and view the output within a web GUI. The Jupyter Notebook is commonly used in data analytics space for data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more. 
 
 The following diagram shows the components relationship:
-<img src="img/senario.png" align="left"  width="80%" >
+<img src="images/spark_zOS.png" align="left"  width="80%" >
 <br clear="all" />
 
 
@@ -22,7 +22,7 @@ The following diagram shows the components relationship:
 You will receive an email containing credentials to access the self-service portal.  This is where you can start exploring all the available services.   
 
 2.Open a web browser and enter the URL to access the z Systems Community Cloud self-service portal.   
-<img src="img/Login.png" align="left" height="30%" width="30%" >
+<img src="images/Login.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 
 3.Enter your Portal User ID and Portal Password, and click ‘Sign In’.  
@@ -30,7 +30,7 @@ You will receive an email containing credentials to access the self-service port
 4.You will see the home page for the z Systems Community Cloud self-service portal.  
 * **Click on ‘Try Analytics Service’**   
 
-<img src="img/Trial.png" align="left" height="30%" width="30%" >
+<img src="images/Trial.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 
 5.You will now see a dashboard, which shows the status of your Apache Spark on z/OS instance. 
@@ -42,20 +42,20 @@ In the middle of the screen, the ‘Spark Instance’, ‘Status’, ‘Data man
 will be displayed. The ‘Spark Instance’ section contains your individual Spark username and IP address. 
 
 Below the field headings, you will see buttons for functions that can be applied to your instance.    
-![GUI](img/Screen.png) 
+![GUI](images/Screen.png) 
 The following table lists the operation for each function:   
-<img src="img/Table.png" align="left" width="60%"  maxwidth="100%" >
+<img src="images/Table.png" align="left" width="60%"  maxwidth="100%" >
 <br clear="all" />
 
 6.If it is the first time for you to try the Analytics Service on zOS, you must set a new Spark password.
 * **Click ‘Change Password’** 
 
-<img src="img/Pwd.png" align="left" height="30%" width="30%" >
+<img src="images/Pwd.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 <br/>
 
 7.Confirm your instance is Active. If it is ‘Stopped’, click ‘Start’ to start it.   
-<img src="img/Start.png" align="left" height="30%" width="30%" >
+<img src="images/Start.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 
 8.Go to https://github.com/cloud4z/spark and download all the sample files.   
@@ -66,7 +66,7 @@ The following table lists the operation for each function:
 * **Select and load the DB2 data file**   
 * **Click ‘Upload’**   
 
-<img src="img/Upload.png" align="left" height="30%" width="30%" >
+<img src="images/Upload.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 
 “Upload Success” will appear in the dashboard when the data load is complete. The VSAM data for this exercise has already been loaded for you. However, this step may be repeated by loading the VSAM copybook and VSAM data file you downloaded, from your local system.   
@@ -79,7 +79,7 @@ The following table lists the operation for each function:
 * **Click ‘Submit’**   
 Note: The arguments suggest you need to login to the GUI to view the job results.  
 
-<img src="img/Submit.png" align="left" height="40%" width="40%" >
+<img src="images/Submit.png" align="left" height="40%" width="40%" >
 <br clear="all" />
 “JOB Submitted” will appear in the dashboard when the program is complete. This Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
 
@@ -89,7 +89,7 @@ Note: The arguments suggest you need to login to the GUI to view the job results
 * **Log in with your Spark username and Spark password. The ones mentioned in step 6.**    
 * **Click on ‘stdout’ for your program in the ‘Finished Drivers’ section to view your results.**     
 
-!<img src="img/Auth.png" align="left" height="40%" width="40%" >
+!<img src="images/Auth.png" align="left" height="40%" width="40%" >
 <br clear="all" />
 
 
@@ -99,12 +99,12 @@ Jupyter Notebook tool that is installed in the dashboard. This tool will allow y
 * **Click on ‘Jupyter’.**      
 You will see the Jupyter home page.  
 
-![Jupyter](img/Jupyter.png)
+![Jupyter](images/Jupyter.png)
 
 2.The prepared Scala program in this level will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2. It will also perform a logistic regression analysis and plot the output.   
 * **Select the Demo.jpynb file.**   
 
-![Jupyter File Select](img/Select.png)
+![Jupyter File Select](images/Select.png)
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
 
 3.The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.  
@@ -112,12 +112,12 @@ The Jupyter Notebook will connect to your Spark on z/OS instance automatically a
 * **Change the value of zOS_IP to your Spark IP address.**      
 * **Change the value of zOS_USERNAME to your Spark username and the value of zOS_PASSWORD to your Spark password.**     
 
-![Change code](img/ChangeCode.png)
+![Change code](images/ChangeCode.png)
 
 4.Click each ‘In [#]:’ section, the left border will change to blue when a cell is in command mode.
 * **Click the run cell button indicated by the red box as shown below**
 
-<img src="img/Run.png" align="left" height="80%" width="80%" >
+<img src="images/Run.png" align="left" height="80%" width="80%" >
 <br clear="all" />
 The Jupyter Notebook connection to your Spark instance is in the busy state when the Apache Toree –Scala indicator in the top right hand corner of the screen is grey.   
 
