@@ -1,4 +1,4 @@
-# Spark-on-zOS
+# Data Analysis using Spark on zOS and Jupyter Notebooks
 
 [Apache Spark](https://spark.apache.org/) is an open-source cluster-computing framework. Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including HDFS, Cassandra, HBase, and S3. And you can use it interactively from the Scala, Python and R shells. You can run Spark using its standalone cluster mode, on an IaaS, on Hadoop YARN, or on container orchestrators like Apache Mesos. 
 
@@ -24,29 +24,25 @@ The scenarios are accomplished by using:
   
 ## Prerequisites
 
-Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) for a trial account.   
-
-Choose **Apache Spark on z/OS trial**      
-
-You will receive an email containing credentials to access the self-service portal.  This is where you can start exploring all the available services.   
+Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) for a trial account. You will receive an email containing credentials to access the self-service portal. This is where you can start exploring all the available services.   
 
 ## Steps
 
-# Part A: Use Self-service Dashboard
+### Part A: Use Self-service Dashboard
 
 1. [Start your Spark Cluster](#1-start-your-spark-cluster)
 2. [Upload the DB2 and VSAM data](#2-upload-the-db2-and-vsam-data)
 3. [Submit a Scala program to analyze the data](#3-submit-a-scala-program-to-analyze-the-data)
 4. [Launch Spark GUI to view the submitted job](#4-launch-spark-gui-to-view-the-submitted-job)
 
-# Part B: Work with Jupyter Notebook
+### Part B: Work with Jupyter Notebook
 
 4. [Build sample application to run on Public Cloud and use On-Premise database](#4-build-sample-application-to-run-on-public-cloud-and-use-on-premise-database)
 5. [Run the application on Public Cloud using Bluemix and database On-Premise using CouchDB and Docker](#5-run-the-application-on-public-cloud-using-bluemix-and-database-on-premise-using-couchdb-and-docker)
 
-### Part A: Use Self-service Dashboard 
+# Part A: Use Self-service Dashboard 
 
-# 1. Start your Spark Cluster
+### 1. Start your Spark Cluster
 
 1.Open a web browser and enter the URL to access the [z Systems Community Cloud](https://zcloud.marist.edu) self-service portal. 
 
@@ -87,7 +83,7 @@ The following table lists the operation for each function:
 <img src="images/Start.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 
-# 2. Upload the DB2 and VSAM data
+### 2. Upload the DB2 and VSAM data
 
 1.Go to https://github.com/cloud4z/spark and download all the sample files.   
 
