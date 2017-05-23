@@ -153,10 +153,10 @@ The prepared Scala program in this level will access DB2 and VSAM data, perform 
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
 
 ### 6. Run Jupyter Notebook cells to load data and perform analysis
-The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.    
-6.1 Run cell #1 - The Scala code in the first cell loads the VSAM data (customer information) into Spark and performs a data transformation.   
+The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.      
+6.1 Run cell #1 - The Scala code in the first cell loads the VSAM data (customer information) into Spark and performs a data transformation.     
 * **Click on the first ‘In [ ]:’**  
-The left border will change to blue when a cell is in command mode, as shown below.      
+The left border will change to blue when a cell is in command mode, as shown below.       
 TODO: add pic
 &nbsp;&nbsp;Before running the code, make the fllowing changes:
 * **Change the value of zOS_IP to your Spark IP address.**      
