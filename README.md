@@ -10,8 +10,7 @@ z/OS Platform for Apache Spark includes a supported version of Apache Spark open
 
 This analytics example uses data stored in DB2 and VSAM tables, and a machine learning application written in [Scala](). The code also uses open-source [Jupyter Notebook](http://jupyter.org) to write and submit Scala code to your Spark instance, and view the output within a web GUI. The Jupyter Notebook is commonly used in data analytics space for data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more. 
 
-The following diagram shows the components relationship:
-<img src="images/spark_zOS.png" align="left"  width="80%" >
+<img src="images/spark_zOS.png" align="left"  width="100%" >
 <br clear="all" />
 
 
