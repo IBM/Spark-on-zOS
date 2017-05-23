@@ -153,24 +153,44 @@ The prepared Scala program in this level will access DB2 and VSAM data, perform 
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
 
 ### 6. Run Jupyter Notebook cells to load data and perform analysis
-
-1.The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.  
-
+The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.  
+6.1 Run cell #1 - The Scala code in the first cell loads the VSAM data (customer information) into Spark and performs a data transformation.
+* ** Click on the first ‘In [ ]:’**  
+The left border will change to blue when a cell is in command mode, as shown below.   
+TODO: add pic
 &nbsp;&nbsp;Before running the code, make the fllowing changes:
 * **Change the value of zOS_IP to your Spark IP address.**      
 * **Change the value of zOS_USERNAME to your Spark username and the value of zOS_PASSWORD to your Spark password.**     
 
 ![Change code](images/ChangeCode.png)
 
-4.Click each ‘In [#]:’ section, the left border will change to blue when a cell is in command mode.
 * **Click the run cell button indicated by the red box as shown below**
 
 <img src="images/Run.png" align="left" height="80%" width="80%" >
 <br clear="all" />
 The Jupyter Notebook connection to your Spark instance is in the busy state when the Apache Toree –Scala indicator in the top right hand corner of the screen is grey.   
 
-When this indicator turns clear, the cell run has completed and returned to the ready state.   
-You may now move to the next ‘In [#]:’ section and run the code.
+When this indicator turns clear, the cell run has completed and returned to the ready state.  
+The output should be similar to the following:   
+TODO: add 1st result pic
+
+6.2 Run cell #2 - The Scala code in the second cell loads the DB2 data (transaction data) into Spark and performs a data transformation.
+* **Click on the next ‘In [ ]:’ to select the next cell**
+* **Click the run cell button**
+The output should be similar to the following:   
+TODO: add 2nd result pic
+
+6.3 Run cell #3 - The Scala code in the third cell joins the VSAM and DB2 data into a new ‘client_join’ dataframe in Spark.
+* **Click on the next ‘In [ ]:’ to select the next cell**
+* **Click the run cell button**
+The output should be similar to the following:   
+TODO: add 3rd result pic
+
+6.4 Run cell #4 - The Scala code in the fourth cell performs a logistic regression to evaluate the probability of customer churn as a function of customer activity level. The ‘result_df’ dataframe is also created, which is used to plot the results on a line graph.
+* **Click on the next ‘In [ ]:’ to select the next cell**
+* **Click the run cell button**
+The output should be similar to the following:
+TODO: add 4th result pic
 
 ## Reference
 IBM z/OS Platform for Apache Spark - http://www-03.ibm.com/systems/z/os/zos/apache-spark.html   
