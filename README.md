@@ -38,7 +38,7 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 ### Part B: Work with Jupyter Notebook
 
 5. [Launch Jupyter Notebook and connect to Spark](#5-launch-jupyter-notebook-and-connect-to-spark)
-6. [Run Jupyter Notebook cells to load data and perform analysis](#5-run-jupyter-notebook-cells-to-load-data-and-perform-analysis)
+6. [Run Jupyter Notebook cells to load data and perform analysis](6-run-jupyter-notebook-cells-to-load-data-and-perform-analysis)
 
 ## Part A: Use Self-service Dashboard 
 
@@ -126,7 +126,7 @@ Launch your individual Spark worker output GUI to view the job you just submitte
 
 ## Part B: Work with Jupyter Notebook
 
-### 5. Launch the Jupyter Notebook and connect to Spark
+### 5. Launch Jupyter Notebook and connect to Spark
 
 Jupyter Notebook tool that is installed in the dashboard. This tool will allow you to write and submit Scala code to your Spark instance, and view the output within a web GUI.  
 
