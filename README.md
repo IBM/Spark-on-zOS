@@ -129,19 +129,22 @@ Launch your individual Spark worker output GUI to view the job you just submitte
 ### 5. Launch the Jupyter Notebook
 
 Jupyter Notebook tool that is installed in the dashboard. This tool will allow you to write and submit Scala code to your Spark instance, and view the output within a web GUI.  
-1.Launch the Jupyter Notebook service in your browser from your dashboard.   
+
+1.**Launch the Jupyter Notebook service in your browser from your dashboard.**
 * **Click on ‘Jupyter’.**      
 You will see the Jupyter home page.  
 
 ![Jupyter](images/Jupyter.png)
 
-2.The prepared Scala program in this level will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2. It will also perform a logistic regression analysis and plot the output.   
-* **Select the Demo.jpynb file.**   
+The prepared Scala program in this level will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2. It will also perform a logistic regression analysis and plot the output.   
+
+2. **Double click the Demo.jpynb file.**   
 
 ![Jupyter File Select](images/Select.png)
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
 
 3.The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.  
+
 &nbsp;&nbsp;Before running the code, make the fllowing changes:
 * **Change the value of zOS_IP to your Spark IP address.**      
 * **Change the value of zOS_USERNAME to your Spark username and the value of zOS_PASSWORD to your Spark password.**     
