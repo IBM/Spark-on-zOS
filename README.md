@@ -24,7 +24,7 @@ The scenarios are accomplished by using:
   
 ## Prerequisites
 
-Register at http://www-03.ibm.com/systems/z/resources/trials.html for a trial account.   
+Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) for a trial account.   
 
 Choose **Apache Spark on z/OS trial**      
 
@@ -32,7 +32,7 @@ You will receive an email containing credentials to access the self-service port
 
 ## Part A: Self-service Dashboard 
 
-1.Open a web browser and enter the URL to access the z Systems Community Cloud self-service portal.   
+1.Open a web browser and enter the URL to access the [z Systems Community Cloud](https://zcloud.marist.edu) self-service portal.   
 <img src="images/Login.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 
