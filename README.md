@@ -35,7 +35,7 @@ You will receive an email containing credentials to access the self-service port
 ### Part A: Use Self-service Dashboard
 
 1. [Start your Spark Cluster](#1-Start-your-Spark-Cluster)
-2. [Upload the DB2 and VSAM data](#2-run-the-application-and-database-on-premise-using-websphere-liberty-couchdb-and-docker)
+2. [Upload the DB2 and VSAM data](#2-Upload-the-DB2-and-VSAM-data)
 3. [Submit a Scala program to analyze the data](#3-Submit-a-Scala-program-to-analyze-the-data)
 4. [Launch Spark GUI to view the submitted job](#4-Launch-Spark-GUI-to-view-the-submitted-job)
 
@@ -46,7 +46,10 @@ You will receive an email containing credentials to access the self-service port
 
 ### Part A: Use Self-service Dashboard 
 
-1.Open a web browser and enter the URL to access the [z Systems Community Cloud](https://zcloud.marist.edu) self-service portal.   
+# 1. Start your Spark Cluster
+
+1.Open a web browser and enter the URL to access the [z Systems Community Cloud](https://zcloud.marist.edu) self-service portal. 
+
 <img src="images/Login.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 
@@ -68,6 +71,7 @@ will be displayed. The ‘Spark Instance’ section contains your individual Spa
 
 Below the field headings, you will see buttons for functions that can be applied to your instance.    
 ![GUI](images/Screen.png) 
+
 The following table lists the operation for each function:   
 <img src="images/Table.png" align="left" width="60%"  maxwidth="100%" >
 <br clear="all" />
@@ -83,9 +87,11 @@ The following table lists the operation for each function:
 <img src="images/Start.png" align="left" height="30%" width="30%" >
 <br clear="all" />
 
-7.Go to https://github.com/cloud4z/spark and download all the sample files.   
+# 2. Upload the DB2 and VSAM data
 
-8.Load the DB2 data file :   
+1.Go to https://github.com/cloud4z/spark and download all the sample files.   
+
+2.Load the DB2 data file :   
 * **Click ‘Upload Data’**   
 * **Select and load the DB2 DDL file**   
 * **Select and load the DB2 data file**   
@@ -96,7 +102,9 @@ The following table lists the operation for each function:
 
 “Upload Success” will appear in the dashboard when the data load is complete. The VSAM data for this exercise has already been loaded for you. However, this step may be repeated by loading the VSAM copybook and VSAM data file you downloaded, from your local system.   
 
-9.Submit a prepared Scala program to analyze the data.    
+# 3. Submit a Scala program to analyze the data
+
+Submit a prepared Scala program to analyze the data.    
 * **Click ‘Spark Submit’**   
 * **Select your Spark Demo JAR file**       
 * **Specify Main class name ‘com.ibm.scalademo.ClientJoinVSAM’**     
@@ -108,7 +116,9 @@ Note: The arguments suggest you need to login to the GUI to view the job results
 <br clear="all" />
 “JOB Submitted” will appear in the dashboard when the program is complete. This Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
 
-10.Launch your individual Spark worker output GUI to view the job you just submitted.   
+# 4. Launch Spark GUI to view the submitted job
+
+Launch your individual Spark worker output GUI to view the job you just submitted.   
 * **Click ‘Spark UI’**       
 * **Click on the ‘Worker ID’ for your program in the ‘Completed Drivers’ section.**     
 * **Log in with your Spark username and Spark password. The ones mentioned in step 6.**    
