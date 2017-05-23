@@ -30,7 +30,21 @@ Choose **Apache Spark on z/OS trial**
 
 You will receive an email containing credentials to access the self-service portal.  This is where you can start exploring all the available services.   
 
-## Part A: Self-service Dashboard 
+## Steps
+
+### Part A: Use Self-service Dashboard
+
+1. [Start your Spark Cluster](#1-Start-your-Spark-Cluster)
+2. [Upload the DB2 and VSAM data](#2-run-the-application-and-database-on-premise-using-websphere-liberty-couchdb-and-docker)
+3. [Submit a Scala program to analyze the data](#3-Submit-a-Scala-program-to-analyze-the-data)
+4. [Launch Spark GUI to view the submitted job](#4-Launch-Spark-GUI-to-view-the-submitted-job)
+
+### Part B: Work with Jupyter Notebook
+
+4. [Build sample application to run on Public Cloud and use On-Premise database](#4-build-sample-application-to-run-on-public-cloud-and-use-on-premise-database)
+5. [Run the application on Public Cloud using Bluemix and database On-Premise using CouchDB and Docker](#5-run-the-application-on-public-cloud-using-bluemix-and-database-on-premise-using-couchdb-and-docker)
+
+### Part A: Use Self-service Dashboard 
 
 1.Open a web browser and enter the URL to access the [z Systems Community Cloud](https://zcloud.marist.edu) self-service portal.   
 <img src="images/Login.png" align="left" height="30%" width="30%" >
@@ -104,7 +118,7 @@ Note: The arguments suggest you need to login to the GUI to view the job results
 <br clear="all" />
 
 
-## Part B: Working with Jupyter Notebook
+### Part B: Work with Jupyter Notebook
 Jupyter Notebook tool that is installed in the dashboard. This tool will allow you to write and submit Scala code to your Spark instance, and view the output within a web GUI.  
 1.Launch the Jupyter Notebook service in your browser from your dashboard.   
 * **Click on ‘Jupyter’.**      
