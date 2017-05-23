@@ -39,12 +39,12 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 
 5. [Launch Jupyter Notebook and connect to Spark](#5-launch-jupyter-notebook-and-connect-to-spark)
 6. [Run Jupyter Notebook cells to load data and perform analysis](#6-run-jupyter-notebook-cells-to-load-data-and-perform-analysis)
-     - 6.1 [Load VSAM data into Spark and perform a data transformation]()
-     - 6.2 [Load DB2 data into Spark and perform a data transformation.]()
-     - 6.3 [Join the VSAM and DB2 data into dataframe in Spark.]()
-     - 6.4 [Perform a logistic regression and create dataframe for plotting]()
-     - 6.5 [Plot the dataframe]()
-     - 6.6 [Get statistical data]()
+       6.1 [Load VSAM data into Spark and perform a data transformation]()
+       6.2 [Load DB2 data into Spark and perform a data transformation.]()
+       6.3 [Join the VSAM and DB2 data into dataframe in Spark.]()
+       6.4 [Perform a logistic regression and create dataframe for plotting]()
+       6.5 [Plot the dataframe]()
+       6.6 [Get statistical data]()
 
 ## Part A: Use Self-service Dashboard 
 
