@@ -37,8 +37,8 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 
 ### Part B: Work with Jupyter Notebook
 
-5. [Build sample application to run on Public Cloud and use On-Premise database](#4-build-sample-application-to-run-on-public-cloud-and-use-on-premise-database)
-6. [Run the application on Public Cloud using Bluemix and database On-Premise using CouchDB and Docker](#5-run-the-application-on-public-cloud-using-bluemix-and-database-on-premise-using-couchdb-and-docker)
+5. [Launch Jupyter Notebook and connect to Spark](#5-launch-jupyter-notebook-and-connect-to-spark)
+6. [Run Jupyter Notebook cells to load data and perform analysis](#5-run-jupyter-notebook-cells-to-load-data-and-perform-analysis)
 
 ## Part A: Use Self-service Dashboard 
 
@@ -126,7 +126,7 @@ Launch your individual Spark worker output GUI to view the job you just submitte
 
 ## Part B: Work with Jupyter Notebook
 
-### 5. Launch the Jupyter Notebook
+### 5. Launch the Jupyter Notebook and connect to Spark
 
 Jupyter Notebook tool that is installed in the dashboard. This tool will allow you to write and submit Scala code to your Spark instance, and view the output within a web GUI.  
 
@@ -143,7 +143,9 @@ The prepared Scala program in this level will access DB2 and VSAM data, perform 
 ![Jupyter File Select](images/Select.png)
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
 
-3.The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.  
+### 6. Run Jupyter Notebook cells to load data and perform analysis
+
+1.The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.  
 
 &nbsp;&nbsp;Before running the code, make the fllowing changes:
 * **Change the value of zOS_IP to your Spark IP address.**      
