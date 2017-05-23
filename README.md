@@ -32,14 +32,14 @@ You will receive an email containing credentials to access the self-service port
 
 ## Steps
 
-### Part A: Use Self-service Dashboard
+# Part A: Use Self-service Dashboard
 
-1. [Start your Spark Cluster](#1-Start-your-Spark-Cluster)
-2. [Upload the DB2 and VSAM data](#2-Upload-the-DB2-and-VSAM-data)
-3. [Submit a Scala program to analyze the data](#3-Submit-a-Scala-program-to-analyze-the-data)
-4. [Launch Spark GUI to view the submitted job](#4-Launch-Spark-GUI-to-view-the-submitted-job)
+1. [Start your Spark Cluster](#1-start-your-spark-cluster)
+2. [Upload the DB2 and VSAM data](#2-upload-the-db2-and-vsam-data)
+3. [Submit a Scala program to analyze the data](#3-submit-a-scala-program-to-analyze-the-data)
+4. [Launch Spark GUI to view the submitted job](#4-launch-spark-gui-to-view-the-submitted-job)
 
-### Part B: Work with Jupyter Notebook
+# Part B: Work with Jupyter Notebook
 
 4. [Build sample application to run on Public Cloud and use On-Premise database](#4-build-sample-application-to-run-on-public-cloud-and-use-on-premise-database)
 5. [Run the application on Public Cloud using Bluemix and database On-Premise using CouchDB and Docker](#5-run-the-application-on-public-cloud-using-bluemix-and-database-on-premise-using-couchdb-and-docker)
