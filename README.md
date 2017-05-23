@@ -25,7 +25,9 @@ The scenarios are accomplished by using:
 ## Prerequisites
 
 Register at http://www-03.ibm.com/systems/z/resources/trials.html for a trial account.   
+
 **Choose Apache Spark on z/OS trial**      
+
 You will receive an email containing credentials to access the self-service portal.  This is where you can start exploring all the available services.   
 
 ## Part A: Self-service Dashboard 
