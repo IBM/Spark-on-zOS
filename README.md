@@ -52,6 +52,7 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 
 <img src="images/Login.png" align="left" height="30%" width="30%" >
 <br clear="all" />
+<br></br>
 
 
 2.Enter your Portal User ID and Portal Password, and click ‘Sign In’.  
@@ -61,6 +62,7 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 
 <img src="images/Trial.png" align="left" height="30%" width="30%" >
 <br clear="all" />
+<br></br>
 
 4.You will now see a dashboard, which shows the status of your Apache Spark on z/OS instance. 
 
@@ -76,6 +78,7 @@ Below the field headings, you will see buttons for functions that can be applied
 The following table lists the operation for each function:   
 <img src="images/Table.png" align="left" width="60%"  maxwidth="100%" >
 <br clear="all" />
+<br></br>
 
 5.If it is the first time for you to try the Analytics Service on zOS, you must set a new Spark password.
 * **Click ‘Change Password’** 
