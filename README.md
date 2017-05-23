@@ -39,12 +39,10 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 
 5. [Launch Jupyter Notebook and connect to Spark](#5-launch-jupyter-notebook-and-connect-to-spark)
 6. [Run Jupyter Notebook cells to load data and perform analysis](#6-run-jupyter-notebook-cells-to-load-data-and-perform-analysis)
-      - 6.1 [Load VSAM data into Spark and perform a data transformation]()
-      - 6.2 [Load DB2 data into Spark and perform a data transformation.]()
-      - 6.3 [Join the VSAM and DB2 data into dataframe in Spark.]()
-      - 6.4 [Perform a logistic regression and create dataframe for plotting]()
-      - 6.5 [Plot the dataframe]()
-      - 6.6 [Get statistical data]()
+      - 6.1 [Load VSAM and DB2 data into Spark and perform a data transformation]()
+      - 6.2 [Join the VSAM and DB2 data into dataframe in Spark.]()
+      - 6.3 [Create a logistic regression dataframe and plot it]()
+      - 6.4 [Get statistical data]()
 
 ## Part A: Use Self-service Dashboard 
 
@@ -116,6 +114,7 @@ Note: The arguments suggest you need to login to the GUI to view the job results
 
 <img src="images/Submit.png" align="left" height="40%" width="40%" >
 <br clear="all" />
+
 “JOB Submitted” will appear in the dashboard when the program is complete. This Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
 
 ### 4. Launch Spark GUI to view the submitted job
@@ -147,6 +146,7 @@ The prepared Scala program in this level will access DB2 and VSAM data, perform 
 2. **Double click the Demo.jpynb file.**   
 
 ![Jupyter File Select](images/Select.png)
+
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
 
 ### 6. Run Jupyter Notebook cells to load data and perform analysis
