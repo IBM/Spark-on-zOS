@@ -37,10 +37,10 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 
 ### Part B: Work with Jupyter Notebook
 
-4. [Build sample application to run on Public Cloud and use On-Premise database](#4-build-sample-application-to-run-on-public-cloud-and-use-on-premise-database)
-5. [Run the application on Public Cloud using Bluemix and database On-Premise using CouchDB and Docker](#5-run-the-application-on-public-cloud-using-bluemix-and-database-on-premise-using-couchdb-and-docker)
+5. [Build sample application to run on Public Cloud and use On-Premise database](#4-build-sample-application-to-run-on-public-cloud-and-use-on-premise-database)
+6. [Run the application on Public Cloud using Bluemix and database On-Premise using CouchDB and Docker](#5-run-the-application-on-public-cloud-using-bluemix-and-database-on-premise-using-couchdb-and-docker)
 
-# Part A: Use Self-service Dashboard 
+## Part A: Use Self-service Dashboard 
 
 ### 1. Start your Spark Cluster
 
@@ -98,7 +98,7 @@ The following table lists the operation for each function:
 
 “Upload Success” will appear in the dashboard when the data load is complete. The VSAM data for this exercise has already been loaded for you. However, this step may be repeated by loading the VSAM copybook and VSAM data file you downloaded, from your local system.   
 
-# 3. Submit a Scala program to analyze the data
+### 3. Submit a Scala program to analyze the data
 
 Submit a prepared Scala program to analyze the data.    
 * **Click ‘Spark Submit’**   
@@ -112,7 +112,7 @@ Note: The arguments suggest you need to login to the GUI to view the job results
 <br clear="all" />
 “JOB Submitted” will appear in the dashboard when the program is complete. This Scala program will access DB2 and VSAM data, perform transformations on the data, join these two tables in a Spark dataframe, and store the result back to DB2.
 
-# 4. Launch Spark GUI to view the submitted job
+### 4. Launch Spark GUI to view the submitted job
 
 Launch your individual Spark worker output GUI to view the job you just submitted.   
 * **Click ‘Spark UI’**       
@@ -124,7 +124,10 @@ Launch your individual Spark worker output GUI to view the job you just submitte
 <br clear="all" />
 
 
-### Part B: Work with Jupyter Notebook
+## Part B: Work with Jupyter Notebook
+
+### 5. Launch the Jupyter Notebook
+
 Jupyter Notebook tool that is installed in the dashboard. This tool will allow you to write and submit Scala code to your Spark instance, and view the output within a web GUI.  
 1.Launch the Jupyter Notebook service in your browser from your dashboard.   
 * **Click on ‘Jupyter’.**      
