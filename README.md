@@ -39,10 +39,10 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 
 5. [Launch Jupyter Notebook and connect to Spark](#5-launch-jupyter-notebook-and-connect-to-spark)
 6. [Run Jupyter Notebook cells to load data and perform analysis](#6-run-jupyter-notebook-cells-to-load-data-and-perform-analysis)
-      - 6.1 [Load VSAM and DB2 data into Spark and perform a data transformation](#6.1-Load-VSAM-and-DB2-data-into-Spark-and-perform-a-data-transformation)
-      - 6.2 [Join the VSAM and DB2 data into dataframe in Spark](#6.2-Join-the-VSAM-and-DB2-data-into-dataframe-in-Spark)
-      - 6.3 [Create a logistic regression dataframe and plot it](#6.3-Create-a-logistic-regression-dataframe-and-plot-it)
-      - 6.4 [Get statistical data](#6.4-Get-statistical-data)
+      - 6.1 [Load VSAM and DB2 data into Spark and perform a data transformation](#6.1-load-vsam-and-db2-data-into-spark-and-perform-a-data-transformation)
+      - 6.2 [Join the VSAM and DB2 data into dataframe in Spark](#6.2-join-the-vsam-and-db2-data-into-dataframe-in-spark)
+      - 6.3 [Create a logistic regression dataframe and plot it](#6.3-create-a-logistic-regression-dataframe-and-plot-it)
+      - 6.4 [Get statistical data](#6.4-get-statistical-data)
 
 ## Part A: Use Self-service Dashboard 
 
@@ -154,7 +154,7 @@ The Jupyter Notebook will connect to your Spark on z/OS instance automatically a
 
 ### 6. Run Jupyter Notebook cells to load data and perform analysis
 The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.      
-#### 6.1 Load VSAM and DB2 data into Spark and perform a data transformation   
+#### 6.1 Load VSAM and DB2 data into Spark and perform a data transformation   <a name="6.1-load-vsam-and-db2-data-into-spark-and-perform-a-data-transformation"></a>
 Run cell #1 - The Scala code in the first cell loads the VSAM data (customer information) into Spark and performs a data transformation.     
 * **Click on the first ‘In [ ]:’**  
 The left border will change to blue when a cell is in command mode, as shown below.       
@@ -175,21 +175,21 @@ When this indicator turns clear, the cell run has completed and returned to the 
 The output should be similar to the following:    
 TODO: add 1st result pic
 
-#### 6.2 Join the VSAM and DB2 data into dataframe in Spark     
+#### 6.2 Join the VSAM and DB2 data into dataframe in Spark   <a name="6.2-join-the-vsam-and-db2-data-into-dataframe-in-spark"></a>  
 Run cell #2 - The Scala code in the second cell loads the DB2 data (transaction data) into Spark and performs a data transformation.
 * **Click on the next ‘In [ ]:’ to select the next cell**
 * **Click the run cell button**
 The output should be similar to the following:   
 TODO: add 2nd result pic
 
-#### 6.3 Create a logistic regression dataframe and plot it  
+#### 6.3 Create a logistic regression dataframe and plot it  <a name="6.3-create-a-logistic-regression-dataframe-and-plot-it"></a>
 Run cell #3 - The Scala code in the third cell joins the VSAM and DB2 data into a new ‘client_join’ dataframe in Spark.
 * **Click on the next ‘In [ ]:’ to select the next cell**
 * **Click the run cell button**
 The output should be similar to the following:      
 TODO: add 3rd result pic
 
-#### 6.4 Get statistical data
+#### 6.4 Get statistical data <a name="6.4-get-statistical-data"></a>
 Run cell #4 - The Scala code in the fourth cell performs a logistic regression to evaluate the probability of customer churn as a function of customer activity level. The ‘result_df’ dataframe is also created, which is used to plot the results on a line graph.
 * **Click on the next ‘In [ ]:’ to select the next cell**
 * **Click the run cell button**
