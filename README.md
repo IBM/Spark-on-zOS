@@ -39,7 +39,7 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 
 5. [Launch Jupyter Notebook and connect to Spark](#5-launch-jupyter-notebook-and-connect-to-spark)
 6. [Run Jupyter Notebook cells to load data and perform analysis](#6-run-jupyter-notebook-cells-to-load-data-and-perform-analysis)
-      - 6.1 [Load VSAM and DB2 data into Spark and perform a data transformation](6.1-Load-VSAM-and-DB2-data-into-Spark-and-perform-a-data-transformation)
+      - 6.1 [Load VSAM and DB2 data into Spark and perform a data transformation](#6.1-Load-VSAM-and-DB2-data-into-Spark-and-perform-a-data-transformation)
       - 6.2 [Join the VSAM and DB2 data into dataframe in Spark](6.2-Join-the-VSAM-and-DB2-data-into-dataframe-in-Spark)
       - 6.3 [Create a logistic regression dataframe and plot it](6.3-Create-a-logistic-regression-dataframe-and-plot-it)
       - 6.4 [Get statistical data](6.4-Get-statistical-data)
@@ -154,7 +154,7 @@ The Jupyter Notebook will connect to your Spark on z/OS instance automatically a
 
 ### 6. Run Jupyter Notebook cells to load data and perform analysis
 The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.      
-6.1 Load VSAM and DB2 data into Spark and perform a data transformation   
+####6.1 Load VSAM and DB2 data into Spark and perform a data transformation   
 Run cell #1 - The Scala code in the first cell loads the VSAM data (customer information) into Spark and performs a data transformation.     
 * **Click on the first ‘In [ ]:’**  
 The left border will change to blue when a cell is in command mode, as shown below.       
