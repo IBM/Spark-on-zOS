@@ -151,7 +151,7 @@ The prepared Scala program in this level will access DB2 and VSAM data, perform 
 ![Jupyter File Select](images/Select.png)
 
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
-<img src="images/clear.png" align="left" height="40%" width="40%" >
+<img src="images/clear.png" align="left" height="80%" width="80%" >
 <br clear="all" />
 ### 6. Run Jupyter Notebook cells to load data and perform analysis
 The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.      
@@ -176,28 +176,48 @@ The Jupyter Notebook connection to your Spark instance is in the busy state when
 <br clear="all" />
 When this indicator turns clear, the cell run has completed and returned to the ready state.  
 The output should be similar to the following:    
-TODO: add 1st result pic
-
-#### 6.2 Join the VSAM and DB2 data into dataframe in Spark   <a name="6.2-join-the-vsam-and-db2-data-into-dataframe-in-spark"></a>  
+<img src="images/out1.png" align="left" height="80%" width="80%" >
+<br clear="all" />
 Run cell #2 - The Scala code in the second cell loads the DB2 data (transaction data) into Spark and performs a data transformation.
 * **Click on the next ‘In [ ]:’ to select the next cell**
 * **Click the run cell button**
 The output should be similar to the following:   
-TODO: add 2nd result pic
+<img src="images/out2.png" align="left" height="80%" width="80%" >
+<br clear="all" />
 
-#### 6.3 Create a logistic regression dataframe and plot it  <a name="6.3-create-a-logistic-regression-dataframe-and-plot-it"></a>
+#### 6.2 Join the VSAM and DB2 data into dataframe in Spark   <a name="6.2-join-the-vsam-and-db2-data-into-dataframe-in-spark"></a>  
 Run cell #3 - The Scala code in the third cell joins the VSAM and DB2 data into a new ‘client_join’ dataframe in Spark.
 * **Click on the next ‘In [ ]:’ to select the next cell**
 * **Click the run cell button**
 The output should be similar to the following:      
-TODO: add 3rd result pic
+<img src="images/out3.png" align="left" height="80%" width="80%" >
+<br clear="all" />
 
-#### 6.4 Get statistical data <a name="6.4-get-statistical-data"></a>
+#### 6.3 Create a logistic regression dataframe and plot it  <a name="6.3-create-a-logistic-regression-dataframe-and-plot-it"></a>
 Run cell #4 - The Scala code in the fourth cell performs a logistic regression to evaluate the probability of customer churn as a function of customer activity level. The ‘result_df’ dataframe is also created, which is used to plot the results on a line graph.
 * **Click on the next ‘In [ ]:’ to select the next cell**
 * **Click the run cell button**
 The output should be similar to the following:   
-TODO: add 4th result pic
+<img src="images/out4.png" align="left" height="80%" width="80%" >
+<br clear="all" />
+
+Run cell #5 - The Scala code in the fifth cell plots the ‘plot_df’ dataframe.
+* **Click on the next ‘In [ ]:’ to select the next cell**
+* **Click the run cell button**
+The output should be similar to the following:
+<img src="images/out5.png" align="left" height="80%" width="80%" >
+<br clear="all" />
+
+#### 6.4 Get statistical data <a name="6.4-get-statistical-data"></a>
+a. The number of rows in the input VSAM dataset
+* **println(clientInfo_df.count())**
+Result should be 6001.
+b. The number of rows in the input DB2 dataset
+* **println(clientTrans_df.count())**
+Result should be 20000.
+c. The number of rows in the joined dataset
+* **println(client_df.count())**
+Result should be 112.
 
 ## Reference
 IBM z/OS Platform for Apache Spark - http://www-03.ibm.com/systems/z/os/zos/apache-spark.html   
