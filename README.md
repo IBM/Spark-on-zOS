@@ -159,7 +159,7 @@ The Jupyter Notebook environment is divided into input cells labelled with ‘In
 Run cell #1 - The Scala code in the first cell loads the VSAM data (customer information) into Spark and performs a data transformation.     
 * **Click on the first ‘In [ ]:’**  
 The left border will change to blue when a cell is in command mode, as shown below.       
-<img src="images/highlight.png" align="left" height="40%" width="40%" >
+<img src="images/highlight.png" align="left" height="80%" width="80%" >
 <br clear="all" />
 &nbsp;&nbsp;Before running the code, make the fllowing changes:
 * **Change the value of zOS_IP to your Spark IP address.**      
@@ -172,7 +172,7 @@ The left border will change to blue when a cell is in command mode, as shown bel
 <img src="images/Run.png" align="left" height="80%" width="80%" >
 <br clear="all" />
 The Jupyter Notebook connection to your Spark instance is in the busy state when the Apache Toree –Scala indicator in the top right hand corner of the screen is grey.   
-<img src="images/clear1.png" align="left" height="40%" width="40%" >
+<img src="images/clear2.png" align="left" height="80%" width="80%" >
 <br clear="all" />
 When this indicator turns clear, the cell run has completed and returned to the ready state.  
 The output should be similar to the following:    
