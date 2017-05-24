@@ -158,9 +158,11 @@ The Jupyter Notebook environment is divided into input cells labelled with ‘In
 #### 6.1 Load VSAM and DB2 data into Spark and perform a data transformation   <a name="6.1-load-vsam-and-db2-data-into-spark-and-perform-a-data-transformation"></a>
 Run cell #1 - The Scala code in the first cell loads the VSAM data (customer information) into Spark and performs a data transformation.     
 * **Click on the first ‘In [ ]:’**  
-The left border will change to blue when a cell is in command mode, as shown below.       
+The left border will change to blue when a cell is in command mode, as shown below.    
+
 <img src="images/highlight.png" align="left" height="80%" width="80%" >
 <br clear="all" />
+
 &nbsp;&nbsp;Before running the code, make the fllowing changes:
 * **Change the value of zOS_IP to your Spark IP address.**      
 * **Change the value of zOS_USERNAME to your Spark username and the value of zOS_PASSWORD to your Spark password.**     
@@ -171,17 +173,23 @@ The left border will change to blue when a cell is in command mode, as shown bel
 
 <img src="images/Run.png" align="left" height="80%" width="80%" >
 <br clear="all" />
-The Jupyter Notebook connection to your Spark instance is in the busy state when the Apache Toree –Scala indicator in the top right hand corner of the screen is grey.   
+
+The Jupyter Notebook connection to your Spark instance is in the busy state when the Apache Toree –Scala indicator in the top right hand corner of the screen is grey. 
+
 <img src="images/clear2.png" align="left" height="80%" width="80%" >
 <br clear="all" />
+
 When this indicator turns clear, the cell run has completed and returned to the ready state.  
-The output should be similar to the following:    
+The output should be similar to the following: 
+
 <img src="images/out1.png" align="left" height="80%" width="80%" >
 <br clear="all" />
+
 Run cell #2 - The Scala code in the second cell loads the DB2 data (transaction data) into Spark and performs a data transformation.
 * **Click on the next ‘In [ ]:’ to select the next cell**
 * **Click the run cell button**
-The output should be similar to the following:   
+The output should be similar to the following:  
+
 <img src="images/out2.png" align="left" height="80%" width="80%" >
 <br clear="all" />
 
@@ -198,14 +206,15 @@ Run cell #4 - The Scala code in the fourth cell performs a logistic regression t
 * **Click on the next ‘In [ ]:’ to select the next cell**
 * **Click the run cell button**
 The output should be similar to the following:   
-<img src="images/out4.png" align="left" height="80%" width="80%" >
+<img src="images/out4.png" align="left" height="40%" width="60%" >
+<br clear="all" />
 <br clear="all" />
 
 Run cell #5 - The Scala code in the fifth cell plots the ‘plot_df’ dataframe.
 * **Click on the next ‘In [ ]:’ to select the next cell**
-* **Click the run cell button**
+* **Click the run cell button**   
 The output should be similar to the following:
-<img src="images/out5.png" align="left" height="80%" width="80%" >
+<img src="images/out5.png" align="left" height="60%" width="60%" >
 <br clear="all" />
 
 #### 6.4 Get statistical data <a name="6.4-get-statistical-data"></a>
