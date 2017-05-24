@@ -151,14 +151,16 @@ The prepared Scala program in this level will access DB2 and VSAM data, perform 
 ![Jupyter File Select](images/Select.png)
 
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
-
+<img src="images/clear.png" align="left" height="40%" width="40%" >
+<br clear="all" />
 ### 6. Run Jupyter Notebook cells to load data and perform analysis
 The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.      
 #### 6.1 Load VSAM and DB2 data into Spark and perform a data transformation   <a name="6.1-load-vsam-and-db2-data-into-spark-and-perform-a-data-transformation"></a>
 Run cell #1 - The Scala code in the first cell loads the VSAM data (customer information) into Spark and performs a data transformation.     
 * **Click on the first ‘In [ ]:’**  
 The left border will change to blue when a cell is in command mode, as shown below.       
-TODO: add pic
+<img src="images/highlight.png" align="left" height="40%" width="40%" >
+<br clear="all" />
 &nbsp;&nbsp;Before running the code, make the fllowing changes:
 * **Change the value of zOS_IP to your Spark IP address.**      
 * **Change the value of zOS_USERNAME to your Spark username and the value of zOS_PASSWORD to your Spark password.**     
@@ -170,7 +172,8 @@ TODO: add pic
 <img src="images/Run.png" align="left" height="80%" width="80%" >
 <br clear="all" />
 The Jupyter Notebook connection to your Spark instance is in the busy state when the Apache Toree –Scala indicator in the top right hand corner of the screen is grey.   
-
+<img src="images/clear1.png" align="left" height="40%" width="40%" >
+<br clear="all" />
 When this indicator turns clear, the cell run has completed and returned to the ready state.  
 The output should be similar to the following:    
 TODO: add 1st result pic
