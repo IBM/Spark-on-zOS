@@ -206,7 +206,7 @@ Run cell #4 - The Scala code in the fourth cell performs a logistic regression t
 * **Click on the next ‘In [ ]:’ to select the next cell**
 * **Click the run cell button**
 The output should be similar to the following:   
-<img src="images/out4.png" align="left" height="40%" width="60%" >
+<img src="images/out4.png" align="left" height="40%" width="40%" >
 <br clear="all" />
 <br clear="all" />
 
