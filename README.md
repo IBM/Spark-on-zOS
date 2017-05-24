@@ -39,10 +39,10 @@ Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) fo
 
 5. [Launch Jupyter Notebook and connect to Spark](#5-launch-jupyter-notebook-and-connect-to-spark)
 6. [Run Jupyter Notebook cells to load data and perform analysis](#6-run-jupyter-notebook-cells-to-load-data-and-perform-analysis)
-      - 6.1 [Load VSAM and DB2 data into Spark and perform a data transformation]()
-      - 6.2 [Join the VSAM and DB2 data into dataframe in Spark.]()
-      - 6.3 [Create a logistic regression dataframe and plot it]()
-      - 6.4 [Get statistical data]()
+      - 6.1 [Load VSAM and DB2 data into Spark and perform a data transformation](#6.1-load-vsam-and-db2-data-into-spark-and-perform-a-data-transformation)
+      - 6.2 [Join the VSAM and DB2 data into dataframe in Spark](#6.2-join-the-vsam-and-db2-data-into-dataframe-in-spark)
+      - 6.3 [Create a logistic regression dataframe and plot it](#6.3-create-a-logistic-regression-dataframe-and-plot-it)
+      - 6.4 [Get statistical data](#6.4-get-statistical-data)
 
 ## Part A: Use Self-service Dashboard 
 
@@ -151,10 +151,17 @@ The prepared Scala program in this level will access DB2 and VSAM data, perform 
 ![Jupyter File Select](images/Select.png)
 
 The Jupyter Notebook will connect to your Spark on z/OS instance automatically and will be in the ready state when the Apache Toree –Scala indicator in the top right hand corner of the screen is clear.     
-
+<img src="images/clear.png" align="left" height="80%" width="80%" >
+<br clear="all" />
 ### 6. Run Jupyter Notebook cells to load data and perform analysis
+The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.      
+#### 6.1 Load VSAM and DB2 data into Spark and perform a data transformation   <a name="6.1-load-vsam-and-db2-data-into-spark-and-perform-a-data-transformation"></a>
+Run cell #1 - The Scala code in the first cell loads the VSAM data (customer information) into Spark and performs a data transformation.     
+* **Click on the first ‘In [ ]:’**  
+The left border will change to blue when a cell is in command mode, as shown below.    
 
-1.The Jupyter Notebook environment is divided into input cells labelled with ‘In [#]:’.  
+<img src="images/highlight.png" align="left" height="80%" width="80%" >
+<br clear="all" />
 
 &nbsp;&nbsp;Before running the code, make the fllowing changes:
 * **Change the value of zOS_IP to your Spark IP address.**      
@@ -162,15 +169,64 @@ The Jupyter Notebook will connect to your Spark on z/OS instance automatically a
 
 ![Change code](images/ChangeCode.png)
 
-4.Click each ‘In [#]:’ section, the left border will change to blue when a cell is in command mode.
 * **Click the run cell button indicated by the red box as shown below**
 
 <img src="images/Run.png" align="left" height="80%" width="80%" >
 <br clear="all" />
-The Jupyter Notebook connection to your Spark instance is in the busy state when the Apache Toree –Scala indicator in the top right hand corner of the screen is grey.   
 
-When this indicator turns clear, the cell run has completed and returned to the ready state.   
-You may now move to the next ‘In [#]:’ section and run the code.
+The Jupyter Notebook connection to your Spark instance is in the busy state when the Apache Toree –Scala indicator in the top right hand corner of the screen is grey. 
+
+<img src="images/clear2.png" align="left" height="80%" width="80%" >
+<br clear="all" />
+
+When this indicator turns clear, the cell run has completed and returned to the ready state.  
+The output should be similar to the following: 
+
+<img src="images/out1.png" align="left" height="80%" width="80%" >
+<br clear="all" />
+
+Run cell #2 - The Scala code in the second cell loads the DB2 data (transaction data) into Spark and performs a data transformation.
+* **Click on the next ‘In [ ]:’ to select the next cell**
+* **Click the run cell button**
+The output should be similar to the following:  
+
+<img src="images/out2.png" align="left" height="80%" width="80%" >
+<br clear="all" />
+
+#### 6.2 Join the VSAM and DB2 data into dataframe in Spark   <a name="6.2-join-the-vsam-and-db2-data-into-dataframe-in-spark"></a>  
+Run cell #3 - The Scala code in the third cell joins the VSAM and DB2 data into a new ‘client_join’ dataframe in Spark.
+* **Click on the next ‘In [ ]:’ to select the next cell**
+* **Click the run cell button**
+The output should be similar to the following:      
+<img src="images/out3.png" align="left" height="80%" width="80%" >
+<br clear="all" />
+
+#### 6.3 Create a logistic regression dataframe and plot it  <a name="6.3-create-a-logistic-regression-dataframe-and-plot-it"></a>
+Run cell #4 - The Scala code in the fourth cell performs a logistic regression to evaluate the probability of customer churn as a function of customer activity level. The ‘result_df’ dataframe is also created, which is used to plot the results on a line graph.
+* **Click on the next ‘In [ ]:’ to select the next cell**
+* **Click the run cell button**
+The output should be similar to the following:   
+<img src="images/out4.png" align="left" height="40%" width="40%" >
+<br clear="all" />
+<br clear="all" />
+
+Run cell #5 - The Scala code in the fifth cell plots the ‘plot_df’ dataframe.
+* **Click on the next ‘In [ ]:’ to select the next cell**
+* **Click the run cell button**   
+The output should be similar to the following:
+<img src="images/out5.png" align="left" height="60%" width="60%" >
+<br clear="all" />
+
+#### 6.4 Get statistical data <a name="6.4-get-statistical-data"></a>
+a. The number of rows in the input VSAM dataset
+* **println(clientInfo_df.count())**
+Result should be 6001.
+b. The number of rows in the input DB2 dataset
+* **println(clientTrans_df.count())**
+Result should be 20000.
+c. The number of rows in the joined dataset
+* **println(client_df.count())**
+Result should be 112.
 
 ## Reference
 IBM z/OS Platform for Apache Spark - http://www-03.ibm.com/systems/z/os/zos/apache-spark.html   
