@@ -228,5 +228,6 @@ c. The number of rows in the joined dataset
 * **println(client_df.count())**
 Result should be 112.
 
+
 ## Reference
 IBM z/OS Platform for Apache Spark - http://www-03.ibm.com/systems/z/os/zos/apache-spark.html   
