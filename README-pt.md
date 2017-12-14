@@ -35,11 +35,11 @@ Inscreva-se na [z Systems Community Cloud](https://zcloud.marist.edu/#/register)
 
 ### Parte B: Trabalhar com o Jupyter Notebook 
 5. [Acionar o Jupyter Notebook e se conectar ao Spark](#5-launch-jupyter-notebook-and-connect-to-spark) 
-6. [Executar células do Jupyter Notebook para carregar dados e executar análise](#6-run-jupyter-notebook-cells-to-load-data-and-perform-analysis) - 
-6.1 [Carregar dados do VSAM e do DB2 no Spark e realizar uma transformação de dados](#6.1-load-vsam-and-db2-data-into-spark-and-perform-a-data-transformation) - 
-6.2 [Unir os dados do VSAM e do DB2 no dataframe no Spark](#6.2-join-the-vsam-and-db2-data-into-dataframe-in-spark) - 
-6.3 [Criar um dataframe de regressão logística e transformá-lo em gráfico](#6.3-create-a-logistic-regression-dataframe-and-plot-it) - 
-6.4 [Obter dados estatísticos](#6.4-get-statistical-data) 
+6. [Executar células do Jupyter Notebook para carregar dados e executar análise](#6-run-jupyter-notebook-cells-to-load-data-and-perform-analysis) 
+- 6.1 [Carregar dados do VSAM e do DB2 no Spark e realizar uma transformação de dados](#6.1-load-vsam-and-db2-data-into-spark-and-perform-a-data-transformation) 
+- 6.2 [Unir os dados do VSAM e do DB2 no dataframe no Spark](#6.2-join-the-vsam-and-db2-data-into-dataframe-in-spark) 
+- 6.3 [Criar um dataframe de regressão logística e transformá-lo em gráfico](#6.3-create-a-logistic-regression-dataframe-and-plot-it) 
+- 6.4 [Obter dados estatísticos](#6.4-get-statistical-data) 
 
 ## Parte A: Usar o Painel de Autoatendimento 
 
