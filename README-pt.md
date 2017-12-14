@@ -45,11 +45,13 @@ Inscreva-se na [z Systems Community Cloud](https://zcloud.marist.edu/#/register)
 
 ### 1. Iniciar seu Cluster do Spark 
 
-1. Abra um navegador da web e insira a URL para acessar o portal de autoatendimento da [z Systems Community Cloud](https://zcloud.marist.edu). 
+1. Abra um navegador da web e insira a URL para acessar o portal de autoatendimento da [z Systems Community Cloud](https://zcloud.marist.edu).
+ 
 <img src="images/Login.png" align="left" height="30%" width="30%" /> <br clear="all" /> <br /> 
 2. Insira seu ID do Usuário do Portal e a Senha do Portal e clique em ‘Sign In’. 
 3. Você verá a página inicial do portal de autoatendimento da z Systems Community Cloud. 
-* **Clique em ‘Try Analytics Service’** <img src="images/Trial.png" align="left" height="30%" width="30%" /> <br clear="all" /> <br /> 
+* **Clique em ‘Try Analytics Service’** 
+<img src="images/Trial.png" align="left" height="30%" width="30%" /> <br clear="all" /> <br /> 
 4. Agora, você verá um painel que mostra o status da sua instância do Apache Spark on z/OS. 
 
 Na parte superior da tela, observe o indicador ‘z/OS Status’, que deve mostrar o status da sua instância como ‘OK’. 
@@ -67,6 +69,7 @@ A tabela a seguir mostra a operação para cada função:
 <img src="images/Pwd.png" align="left" height="30%" width="30%" /> <br clear="all" /> <br /> 
 
 6. Confirme se sua instância está ‘Active’. Se estiver ‘Stopped’, clique em ‘Start’ para iniciá-la. 
+
 <img src="images/Start.png" align="left" height="30%" width="30%" /> <br clear="all" /> 
 
 ### 2. Fazer upload dos dados do DB2 e do VSAM 
