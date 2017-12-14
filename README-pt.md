@@ -27,9 +27,19 @@ Inscreva-se na [z Systems Community Cloud](https://zcloud.marist.edu/#/register)
 
 ## Etapas 
 
-### Parte A: Usar o Painel de Autoatendimento 1. [Iniciar seu Cluster do Spark](#1-start-your-spark-cluster) 2. [Fazer upload dos dados do DB2 e do VSAM](#2-upload-the-db2-and-vsam-data) 3. [Enviar um programa do Scala para analisar os dados](#3-submit-a-scala-program-to-analyze-the-data) 4. [Acionar a GUI do Spark para visualizar a tarefa enviada](#4-launch-spark-gui-to-view-the-submitted-job) 
+### Parte A: Usar o Painel de Autoatendimento 
+1. [Iniciar seu Cluster do Spark](#1-start-your-spark-cluster) 
+2. [Fazer upload dos dados do DB2 e do VSAM](#2-upload-the-db2-and-vsam-data) 
+3. [Enviar um programa do Scala para analisar os dados](#3-submit-a-scala-program-to-analyze-the-data) 
+4. [Acionar a GUI do Spark para visualizar a tarefa enviada](#4-launch-spark-gui-to-view-the-submitted-job) 
 
-### Parte B: Trabalhar com o Jupyter Notebook 5. [Acionar o Jupyter Notebook e se conectar ao Spark](#5-launch-jupyter-notebook-and-connect-to-spark) 6. [Executar células do Jupyter Notebook para carregar dados e executar análise](#6-run-jupyter-notebook-cells-to-load-data-and-perform-analysis) - 6.1 [Carregar dados do VSAM e do DB2 no Spark e realizar uma transformação de dados](#6.1-load-vsam-and-db2-data-into-spark-and-perform-a-data-transformation) - 6.2 [Unir os dados do VSAM e do DB2 no dataframe no Spark](#6.2-join-the-vsam-and-db2-data-into-dataframe-in-spark) - 6.3 [Criar um dataframe de regressão logística e transformá-lo em gráfico](#6.3-create-a-logistic-regression-dataframe-and-plot-it) - 6.4 [Obter dados estatísticos](#6.4-get-statistical-data) 
+### Parte B: Trabalhar com o Jupyter Notebook 
+5. [Acionar o Jupyter Notebook e se conectar ao Spark](#5-launch-jupyter-notebook-and-connect-to-spark) 
+6. [Executar células do Jupyter Notebook para carregar dados e executar análise](#6-run-jupyter-notebook-cells-to-load-data-and-perform-analysis) - 
+6.1 [Carregar dados do VSAM e do DB2 no Spark e realizar uma transformação de dados](#6.1-load-vsam-and-db2-data-into-spark-and-perform-a-data-transformation) - 
+6.2 [Unir os dados do VSAM e do DB2 no dataframe no Spark](#6.2-join-the-vsam-and-db2-data-into-dataframe-in-spark) - 
+6.3 [Criar um dataframe de regressão logística e transformá-lo em gráfico](#6.3-create-a-logistic-regression-dataframe-and-plot-it) - 
+6.4 [Obter dados estatísticos](#6.4-get-statistical-data) 
 
 ## Parte A: Usar o Painel de Autoatendimento 
 
@@ -135,9 +145,9 @@ A conexão do Jupyter Notebook com sua instância do Spark está no estado ocupa
 
 Quando esse indicador fica transparente, significa que a execução da célula foi concluída e retornou ao estado de pronto. A saída deve ser semelhante ao exemplo a seguir:
 
- <img src="images/out1.png" align="left" height="80%" width="80%" /> <br clear="all" /> E
+ <img src="images/out1.png" align="left" height="80%" width="80%" /> <br clear="all" /> 
 
- xecutar célula #2 - O código do Scala na segunda célula carrega os dados do DB2 (dados da transação) no Spark e realiza uma transformação de dados. 
+ Executar célula #2 - O código do Scala na segunda célula carrega os dados do DB2 (dados da transação) no Spark e realiza uma transformação de dados. 
  * **Clique no próximo ‘In [ ]:’ para selecionar a próxima célula** 
  * **Clique no botão de execução da célula** 
  A saída deve ser semelhante ao exemplo a seguir: 
