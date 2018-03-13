@@ -21,7 +21,7 @@ The scenarios are accomplished by using:
 - [Scala](https://www.scala-lang.org/documentation) 
 - [IBM DB2 for z/OS](https://www.ibm.com/analytics/us/en/technology/db2/db2-for-zos.html) 
 - [VSAM](https://www.ibm.com/support/knowledgecenter/zosbasics/com.ibm.zos.zconcepts/zconcepts_169.htm)   
-  
+   
 ## Prerequisites
 
 Register at [z Systems Community Cloud](https://zcloud.marist.edu/#/register) for a trial account. You will receive an email containing credentials to access the self-service portal. This is where you can start exploring all the available services.   
@@ -94,7 +94,7 @@ The following table lists the operation for each function:
 
 1.Go to https://github.com/cloud4z/spark and download all the sample files.   
 
-2.Load the DB2 data file :   
+2.The DB2 data for this exercise has already been loaded for you, no further action is required. However, you may upload the DDL and DB2 data file you downloaded as a prerequisite again, from your local system :   
 * **Click ‘Upload Data’**   
 * **Select and load the DB2 DDL file**   
 * **Select and load the DB2 data file**   
@@ -186,6 +186,18 @@ The output should be similar to the following:
 <br clear="all" />
 
 Run cell #2 - The Scala code in the second cell loads the DB2 data (transaction data) into Spark and performs a data transformation.
+
+    Note:  If you would like to use your own DDL and DB2 data, please first follow 
+    the steps to upload DB2 data in Part A, and then edit the code in cell #2.
+
+    Change
+
+    option("dbtable", "sparkdb.sppaytb1").load()
+
+    to
+    
+    option("dbtable", "[Your Table Name From Your DDL]").load()
+
 * **Click on the next ‘In [ ]:’ to select the next cell**
 * **Click the run cell button**
 The output should be similar to the following:  
